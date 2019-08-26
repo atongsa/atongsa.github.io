@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Homepage
+title: atongsa_home
 ---
 {% include JB/setup %}
 
@@ -8,7 +8,7 @@ title: Homepage
 - languages shape the way we think
 - love and peace
 
-### Posts [![](images/feed-icon-14x14.png)](rss.xml)
+### Posts [![](images/299969.jpg)](rss.xml)
 
 <ul class="posts">
   {% for post in site.posts %}
