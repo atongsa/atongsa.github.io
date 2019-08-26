@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : atongsa_blog
 tagline: Site Tagline
 author : atongsa
 name : atongsa
