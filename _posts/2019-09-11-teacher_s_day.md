@@ -11,4 +11,4 @@ tags: [diary]
 - Fisher 精确检验基于超几何分布
 - 双尾alpha值更小， more strict
 
-## 
+##
