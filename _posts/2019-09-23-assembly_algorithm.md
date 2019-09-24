@@ -120,7 +120,6 @@ tags: [assembly]
             - neighborhood (local) assembly
         - [SOAPdenovo2](https://github.com/aquaskyline/SOAPdenovo2)
             - de Bruijn graph
-        -
 
     - reference
         - RACA
