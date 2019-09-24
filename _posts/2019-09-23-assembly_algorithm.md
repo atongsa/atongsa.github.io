@@ -29,6 +29,13 @@ tags: [assembly]
 -
 
 ## notes
+- motivation
+    - evolution and disease
+        - genetic ancestry
+        - haplotype blocks
+    - population and species level
+    - conservation of endangered species
+
 - first
     - two complementary approaches ran in parallel
     - IHGSC
@@ -40,11 +47,83 @@ tags: [assembly]
         - BAC
         - A2Amapper
 - NGS
-    - 
+
+
+- gene stucture
+    - protein-coding gene count to around 20,000 genes
+    - 1.2% of genome
+    - 4.2% functional
+    - promoter, enhancer, insulator, non-coding-rnas,
 
 ## refs
 - Whole-genome shotgun assembly and comparison of human genome assemblies
--
+- sequencing revolution
+    - SRS
+        - ABI SOLiD
+        - Roche 454
+        - Illumina
+            - up to 250 bp
+            - reference-guided
+            - de novo-assembled
+        - Dovetail’s proximity ligation
+    - LRS
+        - SMRT
+        - chromium 10X
+        - ONT
+        - bionano
+            - refine haplotypes
+- examples
+    - budgerigar (Melopsittacus undulatus)
+    - Capra hircus
+        - PacBio
+        - Illumina
+        - Bionano
+        - chromosome interaction mapping
+            - joining of scaffolds
+            - annotation of long-range chromosome interactions
+            - deciphering cis- and trans-regulation
+- can do
+    - selection pressures
+    - population genomics
+        - SNP
+        - indels
+        - SVs
+    - RNA-seq
+    - Hi-C
+    - Chip-seq
+    - constraint and variant detection
+        - Additional whole-genome alignments and matrices
+- cg
+    - chromosome range
+    - stucture synteny
+    - gene contents(gain and loss)
+    - repeat contents
+- Designing a sequencing project
+- pacbio ont
+    - resolve repeats and gene families
+    - enable structural analysis
+    - sequence assignment
+- Vertebrate genomes features
+    - high repeat content
+    - elevated GC content
+    - microchromosomes
+        - obesity
+        - less than 20 Mb
+    - genome size
+- pg
+
+- apps
+    - illumina; human genome size
+        - [DISCOVAR de novo](https://software.broadinstitute.org/software/discovar/blog/?page_id=23)
+            - neighborhood (local) assembly
+        - [ALLPATHS-LG](https://www.pnas.org/content/108/4/1513)
+            - neighborhood (local) assembly
+        - [SOAPdenovo2](https://github.com/aquaskyline/SOAPdenovo2)
+            - de Bruijn graph
+        -
+
+    - reference
+        - RACA
 
 ## thanks by atongsa
 - thanks for your listening
