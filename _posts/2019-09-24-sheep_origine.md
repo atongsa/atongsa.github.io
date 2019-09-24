@@ -9,6 +9,7 @@ tags: [sheep]
 
 ## papers
 ### Molecular evidence for fat-tailed sheep domestication
+- intro
     - 9 kya
     - multitude of breeds
         - herders
