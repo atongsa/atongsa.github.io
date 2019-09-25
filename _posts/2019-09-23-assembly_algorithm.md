@@ -165,14 +165,15 @@ tags: [assembly]
         - resolve repeats shorter than k-mer
         - representative of the repeat structure
         - ALLPATHS, SOAPdenovo, ABySS
+        - HINGE, ABruijn, WTDBG2
     - string graph
         - FALCON
-    - A-string graph
-    - reference graph; repeat graph
+        - Ferragina–Manzini index (FM-index); O(N)
+    - repeat graph
         - diploid genome
-
-
-
+        - disjointigs
+        - Flye(map reads to make contigs and join repeats)
+- repeats and variations
 
 
 
