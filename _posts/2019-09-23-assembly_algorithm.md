@@ -124,13 +124,59 @@ tags: [assembly]
     - reference
         - RACA
 
-### paper
-#### Genetic variation and the de novo assembly of human genomes
-#####
+## paper
+### Genetic variation and the de novo assembly of human genomes
+#### abstract
 - importance of complete de novo assembly as opposed to read mapping
     - primary means to understanding the full range of human genetic variation
-- Full resolution of variation is only guaranteed by complete de novo assembly of a genome.
+- Full resolution of variation is only guaranteed by complete de novo assembly of a genome
+- challenges
+- lack
+    - indels
+    - SVs
+    - coverage bias
+    - phase
+    - large CNV
+- de novo assembly
+    - two haplotypes  # 单倍型解决基因组
+    - computational challenges
+    - biases for variation incomplete assembly
+#### algorithms for assembling
+- WGSA
+    - whole genome shotgun sequencing and assembly
+    - merging reads with maximal overlap
+- key aspects
+    - read length
+    - overlap mapping quality
+    - assembly algorithm
+- Early genome assembly strategies
+    - before 2007, mouse and human
+        - clone‐by‐clone
+        - 200 kb BAC
+    - complete
+        - euchromatic(only)
+        - without gaps
+    - draft
+- main algorithmic
+    - OLC(overlap-layout-consensus)
+        - PCAP, ARACHNE, Celera, Canu
+        - genome resolution increases with read length
+    - de Bruijn
+        - resolve repeats shorter than k-mer
+        - representative of the repeat structure
+        - ALLPATHS, SOAPdenovo, ABySS
+    - string graph
+        - FALCON
+    - A-string graph
+    - reference graph; repeat graph
+        - diploid genome
 
+
+
+
+
+
+####
 
 
 
