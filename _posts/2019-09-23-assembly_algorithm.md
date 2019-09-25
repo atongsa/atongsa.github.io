@@ -124,6 +124,22 @@ tags: [assembly]
     - reference
         - RACA
 
+### paper
+#### Genetic variation and the de novo assembly of human genomes
+#####
+- importance of complete de novo assembly as opposed to read mapping
+    - primary means to understanding the full range of human genetic variation
+- Full resolution of variation is only guaranteed by complete de novo assembly of a genome.
+
+
+
+
+
+
+
+
+###
+
 ## thanks by atongsa
 - thanks for your listening
 - thanks for your being with me
