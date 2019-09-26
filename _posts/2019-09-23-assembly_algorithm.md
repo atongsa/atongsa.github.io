@@ -164,7 +164,7 @@ tags: [assembly]
     - de Bruijn graph
         - resolve repeats shorter than k-mer
         - representative of the repeat structure
-        - ALLPATHS, SOAPdenovo, ABySS
+        - ALLPATHS, SOAPdenovo, ABySS, ABySS
         - HINGE, ABruijn, WTDBG2
     - string graph
         - FALCON
@@ -199,11 +199,71 @@ tags: [assembly]
 - sequencing technologies
     - Illumina
     - Sanger-based
-    - 
-####
+    - 454
 
+### usages
+- clone-ordered reference genomes
+    - mouse human
+    - contiguity
+    - accuracy
 
+- Sanger assemblies have
+used PCAP , Arachne , Celera and custom BAC
+assembly
 
+- Illumina reads are roughly balanced between
+ALLPATHS 19 (31 genomes) and SOAPdenovo
+
+### problems
+- gaps
+    - repeats
+    - MPS biases in GC representation
+- not accurately represented
+    - regions missed
+    - smaller fraction of genetic variation
+
+### gaps
+- WGSA
+    - Lander–Waterman (LW) statistic
+- MPS
+    - reduced coverage in AT regions
+- Segmental duplication
+    - assembly of two structurally diverse haplotypes
+    - alter‐native reference haplotypes
+- satellites
+    - 100–300 bp
+    - microsatellites
+        - STR
+    - macrosatellites
+        - VNTR
+- Heterochromatic
+    - centromeric
+    - acrocentric
+- Muted gaps
+    - clone-based sequencing toxic
+    - errors in the assembly
+    - 2,600 gaps
+- Allelic variation gaps
+    - a contig break
+    - muted gap
+    - Coalescence
+    - human leukocyte antigen (HLA)
+        - 17q21.31 polymorphism
+
+### Unresolved repeats
+- VNTR region
+
+### conclusion
+- ABySS, SOAPdenovo and ALLPATHS‐LG DISCOVAR
+- Hi-C
+    - 10 kb to 1,000 kb
+    - ~1 Mb
+    - ligating adjacent chromatin enables scaffolding in situ (LACHESIS)
+- bionano
+    - 1–9 kb
+    - ≥150 kb
+    - Irys system
+- SMS
 
 
 
