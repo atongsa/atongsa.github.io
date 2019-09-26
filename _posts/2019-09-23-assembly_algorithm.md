@@ -161,7 +161,7 @@ tags: [assembly]
     - OLC(overlap-layout-consensus)
         - PCAP, ARACHNE, Celera, Canu
         - genome resolution increases with read length
-    - de Bruijn
+    - de Bruijn graph
         - resolve repeats shorter than k-mer
         - representative of the repeat structure
         - ALLPATHS, SOAPdenovo, ABySS
@@ -173,10 +173,33 @@ tags: [assembly]
         - diploid genome
         - disjointigs
         - Flye(map reads to make contigs and join repeats)
-- repeats and variations
+        - minimap2
+- repeats(overlap) and variations(de bruijn, choose genome path)
+- why genome
+    - Unannotated genes
+    - Missing sequence
+        - absent
+        - inaccessible
+        - Characterizing normal genetic variation haplotypes
 
+- novel pairwise alignment algorithms for OLC
+- scaffold
+    - multiple‐insert‐size
+- de novo
+    - BAC
+    - WGSA
+    - MPS
+    - SMS
+- example
+    - illumina
+        - short(200~500 bp); high coverage
+        - medium(2,5,10 kb); lower coverage
+        - long(40 kb), fosmid; sparse coverage
 
-
+- sequencing technologies
+    - Illumina
+    - Sanger-based
+    - 
 ####
 
 
