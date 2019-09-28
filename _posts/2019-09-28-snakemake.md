@@ -21,12 +21,6 @@ tags: [python, pipeline]
 - project-specific root directory
 - paths relative to directory
 
-## examples
-### merge
-
-###
-
-### 
 ## sc
 
 
@@ -35,6 +29,9 @@ tags: [python, pipeline]
 ### config HPC
 
 ### config samples
+- configfile: "config.yaml"
+    - ref = "oa.fa"
+    - samples = ""
 
 ### config conda
 
