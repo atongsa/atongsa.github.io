@@ -30,7 +30,7 @@ tags: [python, pipeline]
 
 ## beauty
 - a good scene
-![girl]()
+![girl](images/briefs.jpg)
 
 
 ## thanks by atongsa
