@@ -17,7 +17,18 @@ tags: [python, pipeline]
 - envs separate
 - easy and think and listen
 
+## conventions
+- project-specific root directory
+- paths relative to directory
+
+## examples
+### merge
+
+###
+
+### 
 ## sc
+
 
 
 ## config
@@ -31,7 +42,6 @@ tags: [python, pipeline]
 ## beauty
 - a good scene
 ![girl](images/briefs.jpg)
-
 
 ## thanks by atongsa
 - thanks for your sharing
