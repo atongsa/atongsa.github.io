@@ -28,6 +28,11 @@ tags: [python, pipeline]
 ### config conda
 
 
+## beauty
+- a good scene
+![girl]()
+
+
 ## thanks by atongsa
 - thanks for your sharing
 - thanks for your listening
