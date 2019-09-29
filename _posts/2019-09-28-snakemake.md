@@ -21,6 +21,13 @@ tags: [python, pipeline]
 - project-specific root directory
 - paths relative to directory
 
+## creat a template
+cd /home/atongsa/Documents/atongsa/projects/20190225_genome_assemble/sc/test
+source activate bio_c109
+conda install
+cookiecutter gh:snakemake-workflows/cookiecutter-snakemake-workflow
+
+
 ## sc
 
 
