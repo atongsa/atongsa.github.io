@@ -26,8 +26,8 @@ cd /home/atongsa/Documents/atongsa/projects/20190225_genome_assemble/sc/test
 source activate bio_c109
 conda install -y cookiecutter
 cookiecutter gh:snakemake-workflows/cookiecutter-snakemake-workflow
-fullname: atongsa_sv_calling
-eamil: atongsa@163.com
+fullname: atongsa_miyamoto
+email: atongsa@163.com
 
 ## sc
 
