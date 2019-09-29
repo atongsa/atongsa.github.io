@@ -27,11 +27,13 @@ tags: [python, pipeline]
 
 ## config
 ### config HPC
-
 ### config samples
 - configfile: "config.yaml"
-    - ref = "oa.fa"
-    - samples = ""
+    samples:
+        A: data/samples/A.fastq
+        B: data/samples/B.fastq
+    ref:
+        oa: 
 
 ### config conda
 
