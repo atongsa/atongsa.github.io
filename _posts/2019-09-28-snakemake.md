@@ -33,7 +33,7 @@ tags: [python, pipeline]
         A: data/samples/A.fastq
         B: data/samples/B.fastq
     ref:
-        oa: 
+        oa:
 
 ### config conda
 

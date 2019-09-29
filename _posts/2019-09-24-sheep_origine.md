@@ -55,6 +55,26 @@ tags: [sheep]
         - 2000 BP
 - possible origin of the fat-tailed sheep
 
+## proofs
+- molecular genetics
+- taxonomy
+- archaeology
+- anthropology
+
+## ancestor of domestic sheep
+- Ovis  Asiatic origin
+- diversified less than three million years
+- seven species
+- Asiatic mouflon (Ovis orientalis) ancestor of domestic sheep
+
+## The possible origin of the fat-tailed sheep
+- ancestral wild stock of both thin- and fat-tailed sheep is identical
+- acquired long after the domestication of the long and thin-tailed breeds of Asia
+- evolved under steppe and desert conditions
+
+## molecular markers
+
+
 
 
 ## thanks
