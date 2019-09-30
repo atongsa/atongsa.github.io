@@ -28,7 +28,7 @@ tags: [python, pipeline]
     rule all: specifies the file you want to create
     other rules: how to build it
 - sanke + container
-- CWL; nextflow; 
+- CWL; nextflow;
 
 ##
 
