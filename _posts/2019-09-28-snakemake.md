@@ -62,7 +62,10 @@ email: atongsa@163.com
     - !envs/*
     - not ignore
 - .travis.yml
-    - set config file
+    - set auto test tarvis
+    - Test and Deploy with Confidence
+
+## 
 
 
 
