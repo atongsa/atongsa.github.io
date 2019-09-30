@@ -21,6 +21,17 @@ tags: [python, pipeline]
 - project-specific root directory
 - paths relative to directory
 
+## Anatomy
+- [nature_article](https://www.nature.com/articles/d41586-019-02619-z)
+- [snake_make_example](https://github.com/jperkel/Snakemake_example)
+- rules
+    rule all: specifies the file you want to create
+    other rules: how to build it
+- sanke + container
+- CWL; nextflow; 
+
+##
+
 ## creat a template
 cd /home/atongsa/Documents/atongsa/projects/20190225_genome_assemble/sc/test
 source activate bio_c109
