@@ -30,8 +30,6 @@ tags: [python, pipeline]
 - sanke + container
 - CWL; nextflow;
 
-##
-
 ## creat a template
 cd /home/atongsa/Documents/atongsa/projects/20190225_genome_assemble/sc/test
 source activate bio_c109
