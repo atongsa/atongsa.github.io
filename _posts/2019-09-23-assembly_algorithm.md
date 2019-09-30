@@ -13,20 +13,11 @@ tags: [assembly]
 - TGS
 - talker atongsa
 
-##
-
-
-## NGS
-
-
 ## TGS
 - long error-prone reads
 - algorithoms
     - de Bruijn graphs
     - repeat graphs
-
-## labs
--
 
 ## notes
 - motivation
@@ -265,10 +256,30 @@ ALLPATHS 19 (31 genomes) and SOAPdenovo
     - Irys system
 - SMS
 
+## golden standard
+### New human reference genomes and standards for genetic variation
+- motivation
+    - variation discovery and precision medicine
+- Platinum and gold genomes
+    - platimum; more complete and accurate than current human genome
+    - haplotype-resolved
+    - two complete hydatidiform moles that are devoid of allelic variation
+
+### limitation of local alignment approach
+- complete assessment of variation will rely on complete de novo assembly.
+
+### gaps
+- tenfold for segmental duplications
+
+## Conclusions and perspectives
+
+
+
 
 
 
 ###
+
 
 ## thanks by atongsa
 - thanks for your listening
