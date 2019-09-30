@@ -38,7 +38,31 @@ cookiecutter gh:snakemake-workflows/cookiecutter-snakemake-workflow
 fullname: atongsa_miyamoto
 email: atongsa@163.com
 
-## sc
+## stuctures
+- envs
+    - conda environments needed for the workflow should be stored here
+- report
+    - workflow discription
+- rules
+    - collection of Snakemake rules
+- scripts
+    - Any Python script
+- config.yaml
+    - configure the workflow on a global scale
+- snakefile
+    - entry point
+- .editorconfig
+    - config coding styles
+    - https://editorconfig.org/
+- .gitattributes
+    - set linguist-language
+- .gitignore
+    - *
+    - !envs
+    - !envs/*
+    - not ignore
+- .travis.yml
+    - set config file
 
 
 
