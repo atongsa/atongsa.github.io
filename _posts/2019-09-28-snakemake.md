@@ -65,9 +65,14 @@ email: atongsa@163.com
     - set auto test tarvis
     - Test and Deploy with Confidence
 
-## 
-
-
+## example
+- [url](https://github.com/snakemake-workflows/single-cell-rna-seq)
+- envs:
+    - lsit conda envs
+    - conda env export
+    - make least install test
+- rules
+- 
 
 
 ## config
