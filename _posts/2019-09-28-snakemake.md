@@ -97,10 +97,10 @@ email: atongsa@163.com
 - Tabular
     ```
     import pandas as pd
-    samples = pd.read_table("samples.tsv").set_index("samples", drop=False)  # 
+    samples = pd.read_table("samples.tsv").set_index("samples", drop=False)  #
     ```
     - make samples in excel is better for reading
--
+- 
 
 
 
