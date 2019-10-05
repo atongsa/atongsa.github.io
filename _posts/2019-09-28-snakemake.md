@@ -87,6 +87,26 @@ email: atongsa@163.com
 
 ### config HPC
 
+### Standard Configuration
+- loaded with
+    configfile: "path/to/config.json"
+- global variable config
+    expand("{sample}.{param}.output.pdf", sample=config["samples"], param=config["yourparam"])
+- shell
+    {config[foo]}
+- Tabular
+    ```
+    import pandas as pd
+    samples = pd.read_table("samples.tsv").set_index("samples", drop=False)  # 
+    ```
+    - make samples in excel is better for reading
+-
+
+
+
+
+
+
 
 
 ## beauty
