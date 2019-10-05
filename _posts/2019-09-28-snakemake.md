@@ -72,8 +72,6 @@ email: atongsa@163.com
     - conda env export
     - make least install test
 - rules
-- 
-
 
 ## config
 ### config HPC
@@ -86,6 +84,9 @@ email: atongsa@163.com
         oa:
 
 ### config conda
+
+### config HPC
+
 
 
 ## beauty
