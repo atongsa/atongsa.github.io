@@ -69,12 +69,14 @@ email: atongsa@163.com
 - [url](https://github.com/snakemake-workflows/single-cell-rna-seq)
 - envs:
     - lsit conda envs
-    - conda env export
-    - make least install test
 - rules
 
 ## config
-### config HPC
+### input
+- configfile: "path/to/config.json"
+- shell:
+      "mycommand {config[foo]} ..."
+
 ### config samples
 - configfile: "config.yaml"
     samples:
@@ -84,8 +86,8 @@ email: atongsa@163.com
         oa:
 
 ### config conda
-
-### config HPC
+conda:
+    "../envs/eval.yaml"
 
 ### Standard Configuration
 - loaded with
@@ -100,9 +102,39 @@ email: atongsa@163.com
     samples = pd.read_table("samples.tsv").set_index("samples", drop=False)  #
     ```
     - make samples in excel is better for reading
-- 
+### Cluster Configuration
+- objects that match names of rules in the Snakefile
+- accessed by the cluster.* wildcard
 
+#### PBS HPC configure_sample
+- [url](https://github.com/Snakemake-Profiles/pbs-torque)
+- PBS-torque
+- deploy
+cd /home/atongsa/Documents/atongsa/projects/20190225_genome_assemble/sc/test
+mkdir -p ~/.config/snakemake
+cd ~/.config/snakemake
+sudo apt install cookiecutter
+cookiecutter https://github.com/Snakemake-Profiles/pbs-torque.git
 
+snakemake --profile pbs-torque
+
+- Parameters[ supported by on a per-rule basis]
+    node
+    mem
+    walltime
+
+-
+
+### Configure Working Directory
+- workdir: "path/to/workdir"
+
+## Modularization
+- wrappers
+    - https://snakemake-wrappers.readthedocs.io/en/stable/
+- include
+- subworkflows
+
+##
 
 
 
