@@ -115,7 +115,6 @@ mkdir -p ~/.config/snakemake
 cd ~/.config/snakemake
 sudo apt install cookiecutter
 cookiecutter https://github.com/Snakemake-Profiles/pbs-torque.git
-
 snakemake --profile pbs-torque
 
 - Parameters[ supported by on a per-rule basis]
@@ -131,13 +130,6 @@ snakemake --profile pbs-torque
     - https://snakemake-wrappers.readthedocs.io/en/stable/
 - include
 - subworkflows
-
-##
-
-
-
-
-
 
 ## beauty
 - a good scene
