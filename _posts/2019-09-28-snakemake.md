@@ -123,8 +123,6 @@ snakemake --profile pbs-torque
     mem
     walltime
 
--
-
 ### Configure Working Directory
 - workdir: "path/to/workdir"
 
