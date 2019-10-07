@@ -102,6 +102,7 @@ conda:
     samples = pd.read_table("samples.tsv").set_index("samples", drop=False)  #
     ```
     - make samples in excel is better for reading
+
 ### Cluster Configuration
 - objects that match names of rules in the Snakefile
 - accessed by the cluster.* wildcard
@@ -134,6 +135,17 @@ snakemake --profile pbs-torque
 
 ### Configure Working Directory
 - workdir: "path/to/workdir"
+
+## a snakemake torque-pbs config.yaml
+- -N jobname
+- -d working dir
+- -q queue
+- -l resources
+
+jname: pb_ngmlr_align
+dd: /home/wangdf/atongsa
+q: big
+resource: nodes=1:ppn=2
 
 ## Modularization
 - wrappers
