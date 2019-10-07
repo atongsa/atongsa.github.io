@@ -122,6 +122,16 @@ snakemake --profile pbs-torque
     mem
     walltime
 
+- profile contents
+    - config.yaml
+        - cluster: pbs-submit.py
+        - jobsubmite: pbs-jobscript.sh: exec_job.sh
+    - dd=""; working dir    
+    - q=""; make queue
+    - se=""; stand error
+    - so=""; stand output
+    - resource=""; -l
+
 ### Configure Working Directory
 - workdir: "path/to/workdir"
 
