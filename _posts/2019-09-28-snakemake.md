@@ -129,9 +129,9 @@ snakemake --profile pbs-torque
         - jobsubmite: pbs-jobscript.sh: exec_job.sh
     - dd=""; working dir    
     - q=""; make queue
+    - resource=""; -l
     - se=""; stand error
     - so=""; stand output
-    - resource=""; -l
 
 ### Configure Working Directory
 - workdir: "path/to/workdir"
