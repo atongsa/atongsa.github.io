@@ -38,7 +38,7 @@ cookiecutter gh:snakemake-workflows/cookiecutter-snakemake-workflow
 fullname: atongsa_miyamoto
 email: atongsa@163.com
 
-## stuctures
+### stuctures
 - envs
     - conda environments needed for the workflow should be stored here
 - report
@@ -65,7 +65,7 @@ email: atongsa@163.com
     - set auto test tarvis
     - Test and Deploy with Confidence
 
-## example
+### example
 - [url](https://github.com/snakemake-workflows/single-cell-rna-seq)
 - envs:
     - lsit conda envs
@@ -119,9 +119,9 @@ cookiecutter https://github.com/Snakemake-Profiles/pbs-torque.git
 snakemake --profile pbs-torque
 
 - Parameters[ supported by on a per-rule basis]
-    node
-    mem
-    walltime
+    - node
+    - mem
+    - walltime
 
 - profile contents
     - config.yaml
