@@ -39,12 +39,25 @@ tags: [python, pipeline]
 - [paper](https://doi.org/10.1038/s41467-019-09518-x)
 - statements
     - contig N50 of 6.99 Mb
-    - 
-
-- statistics
+    - quality value (QV) of the assembly(41)
+    - structural accuracy
+        - mapped Illumina reads
+    - stretches of telomeric sequences
+    - BUSCO(completeness)
 
 ## ape
-- [paper]()
-
+- [paper](DOI: 10.1126/science.aar6343)
+- statements
+    - highly accurate base level
+        - Sanger; (99.85% (QV 28))
+        - clone inserts;
+        - Illumina WGS for discrepancies
+        - CDS
+        - discordant BES/FES mappings
+        - Comparison with previous orangutan reference genomes
+- statistics
+    - Sequence accuracy
+    - Contigs in AGP
+    - Assembly size
 
 ## thanks
