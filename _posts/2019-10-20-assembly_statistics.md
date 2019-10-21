@@ -55,6 +55,22 @@ tags: [python, pipeline]
         - CDS
         - discordant BES/FES mappings
         - Comparison with previous orangutan reference genomes
+    - identify potential misassemblies
+    - &estimate the sequencing accuracy
+        - mapped BAC_end sequence (BES)
+        - fosmid end sequence (FES)
+        - against Quiver-corrected Pilon polished
+        - 99.962% sequence identity with the contigs
+        - 24.2 Mbp (0.8%) of the genome
+            - discortant(discordant by length/ orientation; mapped to multiple locations); 4.9 Mbp (0.1%)
+            - 19.3 Mbp (0.7%)(lacked clear BES or FES support)
+        - 10 kbp sliding window (sliding 2 kbp)
+    - excess sequence read depth
+        - collapsed repeats
+        - 1 kbp non-overlapping windows
+    - flagged as putative assembly errors
+    - did not map to GRCh38
+
 - statistics
     - Sequence accuracy
     - Contigs in AGP
