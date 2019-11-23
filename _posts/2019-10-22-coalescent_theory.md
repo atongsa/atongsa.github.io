@@ -25,4 +25,44 @@ tags: [theory, bio, statistics]
         - Gene trees perfectly reflect species tree
         - repeated mutations erased phylogenetic information
 
+## read
+### Population genetics
+- genetic variation within a population
+- Phylogenetics genetic variation between taxa
+- assumed
+  - Each taxon is represented by a single sequence
+  - data for a single gene history for that gene
+- Model
+  - what happens within each population
+  - within-population models to each population
+- Assumptions; Wright-Fisher Model
+  - Population of 2N gene copies
+  - Discrete, non-overlapping generations of equal size
+  - Parents are picked randomly
+  - a specific parent for a gene 1/2N
+-
+
+
+
+
+
+
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## thanks
