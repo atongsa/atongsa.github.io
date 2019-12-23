@@ -19,4 +19,3 @@ title: atongsa_home
 ### thanks
 - thanks 4 your loving
 - thanks the god
-
