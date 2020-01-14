@@ -13,7 +13,7 @@ tags: [R]
 - talk is cheap; show atongsa the code
 
 ## chinese fu by atongsa
-![福](images/chinese_fu.jpg?raw=true)
+![福](/images/chinese_fu.jpg?raw=true)
 
 ## code for 福
 ``` Rscript
