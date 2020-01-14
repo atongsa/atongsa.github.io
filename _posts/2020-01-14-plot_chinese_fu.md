@@ -23,7 +23,7 @@ p <- ggplot(df, aes(x=x, y=y)) +
     geom_point(size=127, color='red', shape=23, bg='red') +
     theme_void() +
     annotate("text", x=0.5, y=0.5, label="福", size=64, fontface=7, angle=0)
-ggsave("chinese_fu.png", p, width = 5, height = 5)
+ggsave("chinese_fu.jpg", p, width = 5, height = 5)
 
 ```
 
