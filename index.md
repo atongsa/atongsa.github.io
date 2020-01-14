@@ -8,7 +8,8 @@ title: atongsa_home
 - languages shape the way we think
 - love and peace
 
-### Posts [![](images/299969.jpg)](rss.xml)
+### Posts
+[![](images/299969.jpg)](rss.xml)
 
 <ul class="posts">
   {% for post in site.posts %}
