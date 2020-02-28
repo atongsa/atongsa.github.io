@@ -17,9 +17,6 @@ tags: [r, academic, bio]
 ## url
 - [rmarkdown_tutorial](https://libscie.github.io/rmarkdown-workshop/handout.html)
 
-## philosophy
-- RMarkdown to mix prose and code
-
 ## header
 ```
 ---
