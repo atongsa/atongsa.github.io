@@ -80,4 +80,24 @@ https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
     - [zotero](https://www.zotero.org/styles)
 ```
 
+- paper stucture
+structure:
+  - Abstract
+    - purpose; conclusion
+  - Introduction
+    - overall; major point
+  - Methodology
+  - Results
+  - Discussion
+    - reasonable and precise
+  - CONCLUSIONS
+    - beyond the scope
+    - further research
+  - References
+
+- indent of reference
+\setlength\parindent{0pt}
+
+-
+
 ## thanks by atongsa
