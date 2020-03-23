@@ -1,14 +1,9 @@
 ---
 layout: page
-title: atongsa_home
+title: atongsa
 ---
 {% include JB/setup %}
 
-### atongsa
-- languages shape the way we think
-- love and peace
-
-[![](images/299969.jpg)](rss.xml)
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -17,5 +12,8 @@ title: atongsa_home
 </ul>
 
 ### thanks
-- thanks 4 your loving
-- thanks the god
+[![](images/wk.jpg)](rss.xml)
+- languages shape the way we think
+- love and peace ^_^
+- ignore/refuse/listen/learn
+- insist coding/reading; reduce eating; no dissipation
