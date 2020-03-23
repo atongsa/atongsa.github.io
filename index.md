@@ -12,7 +12,7 @@ title: atongsa
 </ul>
 
 ### thanks
-[![](images/wk.jpg)](rss.xml)
+[![](images/wk.jpeg)](rss.xml)
 - languages shape the way we think
 - love and peace ^_^
 - ignore/refuse/listen/learn
