@@ -13,7 +13,7 @@ tags: [python, code]
 - double decorator working seq
 
 ## ref
-[realpython]https://realpython.com/primer-on-python-decorators/#inner-functions
+[realpython](https://realpython.com/primer-on-python-decorators/#inner-functions)
 
 ## code
 
