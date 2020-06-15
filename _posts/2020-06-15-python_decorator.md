@@ -40,8 +40,6 @@ print(a)
 
 ```
 
-## decorator return
-
-
+## name future
 
 ## thanks by atongsa
