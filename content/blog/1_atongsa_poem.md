@@ -18,4 +18,7 @@ galaxy and quantum information <br>
 
 he dies at the year of 2100AD <br>
 
+
+![atongsa looks like this](pic/wk.jpeg)
+
 ## kk
