@@ -22,8 +22,9 @@ java -jar beagle.22Jul22.46e.jar gt=test.22Jul22.46e.vcf.gz out=out.gt
 ```
 
 ## vcf_2_fa
-
-
+```{sh}
+vcf2phylip.py -i $vcf -p -f --output-prefix ur.fa
+```
 
 ## fa_2_haplonet
 

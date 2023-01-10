@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[atongsa's blog]]></description><link>https://atongsa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 09 Jan 2023 13:19:00 GMT</lastBuildDate><item><title><![CDATA[atongsa's poem!]]></title><description><![CDATA[atongsa lives on earth  he wondering and thinking 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[atongsa's blog]]></description><link>https://atongsa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 Jan 2023 07:34:34 GMT</lastBuildDate><item><title><![CDATA[atongsa's poem!]]></title><description><![CDATA[atongsa lives on earth  he wondering and thinking 
 writing and coding 
 traveling and fishing 
 singing and skating  he loves everyting 
@@ -55,6 +55,7 @@ B L Browning, Y Zhou, and S R Browning (2018). A one-penny imputed genome from n
 &lt;span class=&quot;token function&quot;&gt;java&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-jar&lt;/span&gt; beagle.22Jul22.46e.jar &lt;span class=&quot;token assign-left variable&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;test.22Jul22.46e.vcf.gz &lt;span class=&quot;token assign-left variable&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;out.gt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;vcf_2_fa&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;vcf2phylip.py -i $vcf -p -f --output-prefix ur.fa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;fa_2_haplonet&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;r&quot;&gt;&lt;pre class=&quot;language-r&quot;&gt;&lt;code class=&quot;language-r&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# lib&lt;/span&gt;
 library&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ape&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
