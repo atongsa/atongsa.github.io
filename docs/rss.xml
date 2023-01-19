@@ -1,8 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[atongsa's blog]]></description><link>https://atongsa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 Jan 2023 09:26:55 GMT</lastBuildDate><item><title><![CDATA[atongsa's poem!]]></title><description><![CDATA[atongsa lives on earth  he wondering and thinking 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[atongsa's blog]]></description><link>https://atongsa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 Jan 2023 09:35:07 GMT</lastBuildDate><item><title><![CDATA[language]]></title><description><![CDATA[language choose universe the universe behaves like quantumn 
+all the pathways she go 
+no choice 
+the futrue will determine the past 
+there…]]></description><link>https://atongsa.github.io/3_language/</link><guid isPermaLink="false">https://atongsa.github.io/3_language/</guid><pubDate>Thu, 19 Jan 2023 07:51:00 GMT</pubDate><content:encoded>&lt;h2&gt;language choose universe&lt;/h2&gt;
+&lt;p&gt;the universe behaves like quantumn &lt;br&gt;
+all the pathways she go &lt;br&gt;
+no choice &lt;br&gt;
+the futrue will determine the past &lt;br&gt;
+there is no causal, caus there is no time &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;the language is the obeservor of the universe &lt;br&gt;
+the wave of language sounds &lt;br&gt;
+the universe then choose &lt;br&gt;
+no wave no choose &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;one day human died &lt;br&gt;
+the languages dies &lt;br&gt;
+cause there is no one let the language wave souds &lt;br&gt;
+the universe died &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;everything go on &lt;br&gt;
+everything nothing &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;i believe everyting nothing &lt;br&gt;
+cause language believe the universe &lt;br&gt;
+no language no universe &lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;kk&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[haplonet]]></title><description><![CDATA[phase_vcf Beagle is a software package for phasing genotypes and imputing ungenotyped markers. citation: 
+B L Browning, Y Zhou, and S R…]]></description><link>https://atongsa.github.io/2_pegas_haplonet/</link><guid isPermaLink="false">https://atongsa.github.io/2_pegas_haplonet/</guid><pubDate>Mon, 09 Jan 2023 08:27:00 GMT</pubDate><content:encoded>&lt;h2&gt;phase_vcf&lt;/h2&gt;
+&lt;p&gt;Beagle is a software package for phasing genotypes and imputing ungenotyped markers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;citation&lt;/strong&gt;: &lt;br&gt;
+B L Browning, Y Zhou, and S R Browning (2018). A one-penny imputed genome from next generation reference panels. Am J Hum Genet 103(3):338-348. doi:10.1016/j.ajhg.2018.07.015&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;url&lt;/strong&gt;:
+&lt;a href=&quot;http://faculty.washington.edu/browning/beagle/beagle.html&quot;&gt;http://faculty.washington.edu/browning/beagle/beagle.html&lt;/a&gt;
+&lt;a href=&quot;http://faculty.washington.edu/browning/beagle/run.beagle.22Jul22.46e.example&quot;&gt;http://faculty.washington.edu/browning/beagle/run.beagle.22Jul22.46e.example&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;&lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; http://faculty.washington.edu/browning/beagle/beagle.22Jul22.46e.jar
+&lt;span class=&quot;token function&quot;&gt;java&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-jar&lt;/span&gt; beagle.22Jul22.46e.jar &lt;span class=&quot;token assign-left variable&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;test.22Jul22.46e.vcf.gz &lt;span class=&quot;token assign-left variable&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;out.gt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;vcf_2_fa&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;vcf2phylip.py -i $vcf -p -f --output-prefix ur.fa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;fa_2_haplonet&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;r&quot;&gt;&lt;pre class=&quot;language-r&quot;&gt;&lt;code class=&quot;language-r&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# lib&lt;/span&gt;
+library&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ape&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+library&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pegas&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;kk&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[atongsa's poem!]]></title><description><![CDATA[atongsa lives on earth  he wondering and thinking 
 writing and coding 
 traveling and fishing 
 singing and skating  he loves everyting 
-maths…]]></description><link>https://atongsa.github.io/1_atongsa_poem/</link><guid isPermaLink="false">https://atongsa.github.io/1_atongsa_poem/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;atongsa lives on earth &lt;br&gt;&lt;/p&gt;
+maths…]]></description><link>https://atongsa.github.io/1_atongsa_poem/</link><guid isPermaLink="false">https://atongsa.github.io/1_atongsa_poem/</guid><pubDate>Mon, 09 Jan 2023 03:22:00 GMT</pubDate><content:encoded>&lt;p&gt;atongsa lives on earth &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;he wondering and thinking &lt;br&gt;
 writing and coding &lt;br&gt;
 traveling and fishing &lt;br&gt;
@@ -43,47 +86,4 @@ galaxy and quantum information &lt;br&gt;&lt;/p&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;kk&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[language]]></title><description><![CDATA[language choose universe the universe behaves like quantumn 
-all the pathways she go 
-no choice 
-the futrue will determine the past 
-there…]]></description><link>https://atongsa.github.io/3_language/</link><guid isPermaLink="false">https://atongsa.github.io/3_language/</guid><pubDate>Thu, 19 Jan 2023 15:51:00 GMT</pubDate><content:encoded>&lt;h2&gt;language choose universe&lt;/h2&gt;
-&lt;p&gt;the universe behaves like quantumn &lt;br&gt;
-all the pathways she go &lt;br&gt;
-no choice &lt;br&gt;
-the futrue will determine the past &lt;br&gt;
-there is no causal, caus there is no time &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;the language is the obeservor of the universe &lt;br&gt;
-the wave of language sounds &lt;br&gt;
-the universe then choose &lt;br&gt;
-no wave no choose &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;one day human died &lt;br&gt;
-the languages dies &lt;br&gt;
-cause there is no one let the language wave souds &lt;br&gt;
-the universe died &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;everything go on &lt;br&gt;
-everything nothing &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;i believe everyting nothing &lt;br&gt;
-cause language believe the universe &lt;br&gt;
-no language no universe &lt;br&gt;&lt;/p&gt;
-&lt;h2&gt;kk&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[haplonet]]></title><description><![CDATA[phase_vcf Beagle is a software package for phasing genotypes and imputing ungenotyped markers. citation: 
-B L Browning, Y Zhou, and S R…]]></description><link>https://atongsa.github.io/2_pegas_haplonet/</link><guid isPermaLink="false">https://atongsa.github.io/2_pegas_haplonet/</guid><pubDate>Mon, 09 Jan 2023 16:27:00 GMT</pubDate><content:encoded>&lt;h2&gt;phase_vcf&lt;/h2&gt;
-&lt;p&gt;Beagle is a software package for phasing genotypes and imputing ungenotyped markers.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;citation&lt;/strong&gt;: &lt;br&gt;
-B L Browning, Y Zhou, and S R Browning (2018). A one-penny imputed genome from next generation reference panels. Am J Hum Genet 103(3):338-348. doi:10.1016/j.ajhg.2018.07.015&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;url&lt;/strong&gt;:
-&lt;a href=&quot;http://faculty.washington.edu/browning/beagle/beagle.html&quot;&gt;http://faculty.washington.edu/browning/beagle/beagle.html&lt;/a&gt;
-&lt;a href=&quot;http://faculty.washington.edu/browning/beagle/run.beagle.22Jul22.46e.example&quot;&gt;http://faculty.washington.edu/browning/beagle/run.beagle.22Jul22.46e.example&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;&lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; http://faculty.washington.edu/browning/beagle/beagle.22Jul22.46e.jar
-&lt;span class=&quot;token function&quot;&gt;java&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-jar&lt;/span&gt; beagle.22Jul22.46e.jar &lt;span class=&quot;token assign-left variable&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;test.22Jul22.46e.vcf.gz &lt;span class=&quot;token assign-left variable&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;out.gt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;vcf_2_fa&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;vcf2phylip.py -i $vcf -p -f --output-prefix ur.fa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;fa_2_haplonet&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;r&quot;&gt;&lt;pre class=&quot;language-r&quot;&gt;&lt;code class=&quot;language-r&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# lib&lt;/span&gt;
-library&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ape&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-library&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pegas&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;kk&lt;/h2&gt;</content:encoded></item></channel></rss>

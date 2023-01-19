@@ -1,6 +1,6 @@
 ---
 title: haplonet
-date: "2023-01-09T16:27Z" #2015-05-01T22:12:03.284Z
+date: "2023-01-09 16:27" #2015-05-01T22:12:03.284Z
 description: plot haplonet with r::pegas.
 ---
 

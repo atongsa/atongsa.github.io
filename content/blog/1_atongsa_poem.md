@@ -1,6 +1,6 @@
 ---
 title: atongsa's poem!
-date: "20230109"
+date: "2023-01-09 11:22"
 description: A poem for atongsa.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: language
-date: "2023-01-19T15:51Z" #2015-05-01T22:12:03.284Z
+date: "2023-01-19 15:51" #2015-05-01T22:12:03.284Z
 description: the relationship between language and the universe
 ---
 
