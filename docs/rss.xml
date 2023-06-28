@@ -1,19 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[atongsa's blog]]></description><link>https://atongsa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Jan 2023 10:53:23 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[tutorial google_photos
-google_api colab_to_youtube  kk]]></description><link>https://atongsa.github.io/4_bilibili2youtube/</link><guid isPermaLink="false">https://atongsa.github.io/4_bilibili2youtube/</guid><content:encoded>&lt;h2&gt;tutorial&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[atongsa's blog]]></description><link>https://atongsa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 28 Jun 2023 08:30:48 GMT</lastBuildDate><item><title><![CDATA[sync bilibili 2 youtube]]></title><description><![CDATA[tutorial google_photos
+google_api colab_to_youtube kk]]></description><link>https://atongsa.github.io/4_bilibili2youtube/</link><guid isPermaLink="false">https://atongsa.github.io/4_bilibili2youtube/</guid><pubDate>Wed, 28 Jun 2023 08:27:00 GMT</pubDate><content:encoded>&lt;h2&gt;tutorial&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://xirtam.cxumol.com/move-video-bilibili-to-youtube/&quot;&gt;google_photos&lt;/a&gt;
 &lt;a href=&quot;https://xirtam.cxumol.com/upload-videos-to-youtube-brand-account-via-low-level-api/&quot;&gt;google_api&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1F1HcoKuzfAtSGbNVYpO0zq1HbSCeJWhW?usp=sharing#scrollTo=HdxsLK38DvhC&quot;&gt;colab_to_youtube&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;/h2&gt;
-&lt;h2&gt;kk&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[inkscape]]></title><description><![CDATA[run cut a line kk]]></description><link>https://atongsa.github.io/5_inkscape/</link><guid isPermaLink="false">https://atongsa.github.io/5_inkscape/</guid><pubDate>Sat, 28 Jan 2023 10:29:00 GMT</pubDate><content:encoded>&lt;h2&gt;run&lt;/h2&gt;
+&lt;h2&gt;kk&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[ftp_server_with_filezilla]]></title><description><![CDATA[Network Configuration wiki NAT local with one IP(IPv4, IPv6) firewalls FTP control connection data connection active mode client PORT addr…]]></description><link>https://atongsa.github.io/6_ftp_server/</link><guid isPermaLink="false">https://atongsa.github.io/6_ftp_server/</guid><pubDate>Fri, 10 Feb 2023 07:58:00 GMT</pubDate><content:encoded>&lt;h2&gt;Network Configuration&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;cut a line&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://wiki.filezilla-project.org/Network_Configuration#:~:text=rely%20on%20it.-,Passive%20mode,for%20a%20free%20port%20number.&quot;&gt;wiki&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NAT&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;local with one IP(IPv4, IPv6)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;select line
-select part
-shift select line
-path &gt; cut_path&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;firewalls&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FTP&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;control connection&lt;/li&gt;
+&lt;li&gt;data connection
+&lt;ul&gt;
+&lt;li&gt;active mode
+&lt;ul&gt;
+&lt;li&gt;client PORT addr to server&lt;/li&gt;
+&lt;li&gt;server sends by addr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;passive mode (recommended)
+&lt;ul&gt;
+&lt;li&gt;client sends PASV to server&lt;/li&gt;
+&lt;li&gt;server sends addr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;passive_mode&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;54000 &amp;#x3C; port &amp;#x3C; 54200&lt;/li&gt;
+&lt;li&gt;firewall_incoming_routes: port&lt;/li&gt;
+&lt;li&gt;windows_firewall
+&lt;ul&gt;
+&lt;li&gt;Exceptions (browse FileZilla server.exe)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;netsh advfirewall set global statefulftp disable&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;File Transfer Protocol&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://wiki.filezilla-project.org/File_Transfer_Protocol&quot;&gt;depth_wiki&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;kk&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[language]]></title><description><![CDATA[language choose universe the universe behaves like quantumn 
 all the pathways she go 
@@ -56,7 +98,12 @@ B L Browning, Y Zhou, and S R Browning (2018). A one-penny imputed genome from n
 library&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;ape&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 library&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pegas&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
-
+set.seed&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+x &lt;span class=&quot;token operator&quot;&gt;&amp;lt;-&lt;/span&gt; woodmouse&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sample.int&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nrow&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;woodmouse&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+h &lt;span class=&quot;token operator&quot;&gt;&amp;lt;-&lt;/span&gt; haplotype&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+d &lt;span class=&quot;token operator&quot;&gt;&amp;lt;-&lt;/span&gt; dist.dna&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;h&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;N&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+nt &lt;span class=&quot;token operator&quot;&gt;&amp;lt;-&lt;/span&gt; rmst&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;d&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; quiet &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+nt &lt;span class=&quot;token operator&quot;&gt;&amp;lt;-&lt;/span&gt; haploNet&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;h&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;kk&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[atongsa's poem!]]></title><description><![CDATA[atongsa lives on earth  he wondering and thinking 
 writing and coding 
