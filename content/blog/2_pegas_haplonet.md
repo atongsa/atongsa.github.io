@@ -33,9 +33,13 @@ vcf2phylip.py -i $vcf -p -f --output-prefix ur.fa
 library(ape)
 library(pegas)
 
-
+set.seed(42)
+x <- woodmouse[sample.int(nrow(woodmouse), 80, TRUE), ]
+h <- haplotype(x)
+d <- dist.dna(h, "N")
+nt <- rmst(d, quiet = TRUE)
+nt <- haploNet(h)
 
 ```
-
 
 ## kk

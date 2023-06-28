@@ -32,8 +32,4 @@ description: ftp_server_on_windows
 ## File Transfer Protocol
 - [depth_wiki](https://wiki.filezilla-project.org/File_Transfer_Protocol)
 
-
-
-
-
 # kk
